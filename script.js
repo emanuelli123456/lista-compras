@@ -4,7 +4,7 @@ const input = document.querySelector('#produto')
 
 //document.querySelector = selecionar um elemento html
 const contador = document.querySelector('#contador')
-const mensagemErro = document.querySelector('#contador')
+const mensagemErro = document.querySelector('#mensagemErro')
 const lista = document.querySelector('#lista')
 
 form.addEventListener('submit', function(event){
