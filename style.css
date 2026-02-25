@@ -15,7 +15,7 @@ body{
 .container{
  background-color:black ;
  padding: 40px;
- bolder-radius: 25px, black;
+ border-radius: 25px black;
  width: 400px;
  backdrop-filter: blur(15px);
 border: 2px solid #00f7ff;
@@ -86,7 +86,17 @@ li{
     margin-bottom: 10px;
     padding: 8px;
     border-radius: 8px;
-    background: 
+    background: #8A9A5B
 }
+
+#contador{
+    margin-top: 20px;
+    text-align: center;
+    color: #ff00ff;
+    font-weight:  bold;
+    text-shadow: 0010px, red;
+
+}
+
 
 
