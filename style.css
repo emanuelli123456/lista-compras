@@ -1,0 +1,92 @@
+
+*comeco{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: radial-gradient(circle at top,#3c00bf,#050510);
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.container{
+ background-color:black ;
+ padding: 40px;
+ bolder-radius: 25px, black;
+ width: 400px;
+ backdrop-filter: blur(15px);
+border: 2px solid #00f7ff;
+box-shadow: 
+00 15px#00f7ff
+0 0 30px aqua
+0 0 60px purple
+}
+
+h1{
+    text-align: center;
+    color: aqua;
+    text-shadow: 
+     0 0 15px aqua,
+     0 0 30px aqua,
+    0 0 60px purple;
+    letter-spacing:  2px;
+}
+
+form{
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+
+}
+
+input{
+    flex:1;
+    padding: 12px;
+    border: solid 2px #ff00ff;
+    background-color: transparent;
+    color: blue;
+}
+
+input:focus{
+    box-shadow: 00 15px #00f7ff;
+    border-color: aqua;
+
+}
+
+button{
+    background: linear-gradient(45deg, blue,green);
+    border: none;
+    padding: 12px,20px;
+    cursor: pointer;
+    font-weight:  bold;
+    color:  white;
+    box-shadow: 00 15px red;
+    transition: 0.3s;
+
+}
+
+button:hover{
+    transform: scale(1.1);
+    box-shadow: 0025px purple;
+
+
+}
+
+ul{
+    color: aliceblue;
+    padding-left: 20px;
+    margin-bottom: 10px;
+
+}
+
+li{
+    margin-bottom: 10px;
+    padding: 8px;
+    border-radius: 8px;
+    background: 
+}
+
+
